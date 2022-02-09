@@ -1,5 +1,7 @@
 #include <cmath>
 #include <iostream>
+
+using namespace std;
 //Esto calcula el area de un triangulo.
 //Variables son asignado objetos que son concreto.
 int main(){
@@ -11,5 +13,5 @@ int main(){
 
     double area = sqrt(s * (s - s1) * (s - s2) * (s - s3));
 
-    std::cout << "Area is: " << area;
+    cout << "Area is: " << area;
 }

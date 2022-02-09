@@ -1,10 +1,22 @@
 class Triangle {
 
-public:
+private:
 
     double side1;
     double side2;
     double side3;
+
+public:
+
+    //Getters
+    double getSide1() {return side1;}
+    double getSide2() {return side2;}
+    double getSide3() {return side3;}
+
+    //Setters
+    void setSide1(double side1) {this->side1 = side1;}
+    void setSide2(double side2) {this->side2 = side2;}
+    void setSide3(double side3) {this->side3 = side3;}
 
     Triangle(double s1, double s2, double s3){
         side1 = s1;
