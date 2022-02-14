@@ -1,7 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include <string>
-#include <cctype>
 //La forma mas efectiva de hacer un algoritmo de el area de el triangulo es creando una FUNCION:
 //Un function es un algorithm que puede ser llamado multiples veces, preveninendo repitiendo el codigo y acomodandolo de forma efectiva
 using namespace std;
@@ -12,21 +10,6 @@ double computeTriangleArea(double s1, double s2, double s3){
     double s = (s1 + s2 + s3) / 2;
     double area = sqrt(s * (s - s1) * (s - s2) * (s - s3));
     return area;
-}
-
-string encode(string clearText){
-    
-    string output = "";
-    for(int i=0; i<clearText.size(); i++){
-        if (isspace(clearText[i])){
-            output += '_';
-        }
-        else {
-            output += clearText[i];
-        }
-    }
-
-    return output;
 }
 
 int main(){
