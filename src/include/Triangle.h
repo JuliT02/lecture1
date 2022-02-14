@@ -24,6 +24,6 @@ public:
         side3 = s3;
     }
 
-    //double computeTriangleArea(Triangle t);
+    double computeTriangleArea();
 
 };
