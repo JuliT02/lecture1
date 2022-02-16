@@ -24,6 +24,6 @@ public:
         side3 = s3;
     }
 
-    double computeTriangleArea();
-
+    double getArea();
+    static double sumAreas(Triangle list[], int numTriangles);
 };
