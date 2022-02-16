@@ -19,4 +19,8 @@ int main(){
     cout << Triangle(20,20,20).compare(Triangle(10,10,10)) << endl;
     cout << Triangle(20,20,20).compare(Triangle(20,20,20)) << endl;
     
+    //Scale Triangles
+    Triangle dummy(10,10,10);
+    Triangle doubleDummy = dummy.scale(2.0);
+    Triangle halfDummy = dummy.scale(0.5);
 }
